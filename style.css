@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Calculator box */
+div {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 360px;
+}
+
+/* Heading */
+#bmi {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+input[type="text"] {
+    width: 100px;
+    padding: 6px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #45a049;
+}
+
+/* Result number */
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+
+    width: auto;        /* fixed width */
+    height: auto;        /* fixed height */
+       
+}
+
+/* Remark message */
+#remark {
+    font-size: 18px;
+    margin-top: 10px;
+
+    width:auto;
+}
+
+#remark div {
+    width: 80%;             /* Ensures inner div fills container */
+    max-width: 100%;
+}
+  
