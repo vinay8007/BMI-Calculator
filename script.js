@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) =>{
         
     }
     else if(weight<= 0 || isNaN(weight)){
-        result.innerHTML = `Please enter a valid height ${weight}`;
+        result.innerHTML = `Please enter a valid weight ${weight}`;
         //remark.innerHTML = "";
         
     } else{
@@ -26,11 +26,11 @@ form.addEventListener("submit", (e) =>{
         result.innerHTML =`<span><b> ${bmi} </b></span>`;
 
         if(bmi < 18.5){
-            remark.innerHTML = `<div> Underweight: Increse calorie intake or consult a Dcotor<div>`;
+            remark.innerHTML = `<div> Underweight: Increse calorie intake or consult a Dcotor</div>`;
             remark.style.color = "blue";
 
         } else if(bmi>=18.5 && bmi <= 24.9){
-            remark.innerHTML = `<div>Normal: Good, congrattulations! Maintain your life style.</div>`;
+            remark.innerHTML = `<div>Normal: Good, congratulations! Maintain your life style.</div>`;
             remark.style.color = "green";
 
         }else if(bmi >=25 && bmi <= 29.9){
